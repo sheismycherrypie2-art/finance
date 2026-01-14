@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    {
+      "category": "Перевод",
+      "amount": 8000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": "перевод от пользователя freddy"
+    },
+    {
+      "category": "Перевод",
+      "amount": 8000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": "перевод пользователю freddy"
+    }
+  ],
+  "categories": [
+    "Перевод"
+  ],
+  "budgets": {}
+}

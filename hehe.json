@@ -1,0 +1,121 @@
+{
+  "transactions": [
+    {
+      "category": "Еда",
+      "amount": 4000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Развлечения",
+      "amount": 3000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Коммунальные",
+      "amount": 2500.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 300.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 300.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 200.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Развлечения",
+      "amount": 3000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Коммунальные",
+      "amount": 3000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 300.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 500.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Развлечения",
+      "amount": 3000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Коммунальные",
+      "amount": 3000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Такси",
+      "amount": 1500.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Зарплата",
+      "amount": 20000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Зарплата",
+      "amount": 40000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    }
+  ],
+  "categories": [
+    "Еда",
+    "Развлечения",
+    "Коммунальные",
+    "Такси",
+    "Зарплата"
+  ],
+  "budgets": {
+    "Еда": 4000.0,
+    "Развлечения": 3000.0,
+    "Коммунальные": 2500.0
+  }
+}
