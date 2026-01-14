@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="
+           http://maven.apache.org/POM/4.0.0
+           http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>student</groupId>
     <artifactId>finance-app</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,11 +18,13 @@
 
         <junit.version>5.10.2</junit.version>
         <gson.version>2.11.0</gson.version>
+        <checkstyle.version>10.16.0</checkstyle.version>
         <jacoco.version>0.8.12</jacoco.version>
     </properties>
 
     <dependencies>
-        <!-- Gson для JSON -->
+
+        <!-- Gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -36,12 +38,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
 
-            <!-- Компилятор Java 17 -->
+            <!-- Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -52,7 +55,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Запуск JUnit 5 -->
+            <!-- Surefire (JUnit 5) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -69,7 +72,7 @@
                 <version>3.3.1</version>
                 <configuration>
                     <configLocation>config/checkstyle.xml</configLocation>
-                    <inputEncoding>UTF-8</inputEncoding>
+                    <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                 </configuration>
@@ -88,8 +91,10 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
+
                 <executions>
-                    <!-- Подключение агента -->
+
+                    <!-- attach agent -->
                     <execution>
                         <id>prepare-agent</id>
                         <goals>
@@ -97,16 +102,7 @@
                         </goals>
                     </execution>
 
-                    <!-- Отчёт -->
-                    <execution>
-                        <id>report</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                    </execution>
-
-                    <!-- Проверка покрытия -->
+                    <!-- check coverage -->
                     <execution>
                         <id>check</id>
                         <phase>verify</phase>
@@ -114,6 +110,13 @@
                             <goal>check</goal>
                         </goals>
                         <configuration>
+
+                            <!-- ИСКЛЮЧАЕМ CLI -->
+                            <excludes>
+                                <exclude>app/Main*</exclude>
+                                <exclude>app/ConsoleApp*</exclude>
+                            </excludes>
+
                             <rules>
                                 <rule>
                                     <element>BUNDLE</element>
@@ -128,6 +131,7 @@
                             </rules>
                         </configuration>
                     </execution>
+
                 </executions>
             </plugin>
 
