@@ -1,133 +1,133 @@
-C:.
-│   .gitignore
-│   hehe.csv
-│   hehe.json
-│   pom.xml
-│
-├───.github
-│   └───workflows
-│           ci.yml
-│
-├───.idea
-│       .gitignore
-│       compiler.xml
-│       encodings.xml
-│       jarRepositories.xml
-│       misc.xml
-│       workspace.xml
-│
-├───.mvn
-├───config
-│       checkstyle.xml
-│
-├───data
-│       wallet_fred.json
-│       wallet_FREDDY.json
-│       wallet_frreddy.json
-│
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───app
-│   │   │           ConsoleApp.java
-│   │   │           CsvUtil.java
-│   │   │           FinanceService.java
-│   │   │           Main.java
-│   │   │           StorageService.java
-│   │   │           Transaction.java
-│   │   │           User.java
-│   │   │           UserService.java
-│   │   │           Wallet.java
-│   │   │
-│   │   └───resources
-│   └───test
-│       └───java
-│           └───app
-│                   CsvEscapingTest.java
-│                   CsvUtilTest.java
-│                   FinanceServiceTest.java
-│                   IntegrationFlowTest.java
-│                   MoreCsvUtilTest.java
-│                   MoreFinanceServiceTest.java
-│                   MoreStorageServiceTest.java
-│                   MoreUserServiceTest.java
-│                   StorageServiceTest.java
-│                   UserServiceTest.java
-│
-└───target
-    │   checkstyle-cachefile
-    │   checkstyle-checker.xml
-    │   checkstyle-result.xml
-    │   finance-app-1.0.0.jar
-    │   jacoco.exec
-    │
-    ├───classes
-    │   └───app
-    │           ConsoleApp.class
-    │           CsvUtil.class
-    │           FinanceService$FilterResult.class
-    │           FinanceService.class
-    │           Main.class
-    │           StorageService$LocalDateAdapter.class
-    │           StorageService.class
-    │           Transaction.class
-    │           User.class
-    │           UserService.class
-    │           Wallet.class
-    │
-    ├───generated-sources
-    │   └───annotations
-    ├───generated-test-sources
-    │   └───test-annotations
-    ├───maven-archiver
-    │       pom.properties
-    │
-    ├───maven-status
-    │   └───maven-compiler-plugin
-    │       ├───compile
-    │       │   └───default-compile
-    │       │           createdFiles.lst
-    │       │           inputFiles.lst
-    │       │
-    │       └───testCompile
-    │           └───default-testCompile
-    │                   createdFiles.lst
-    │                   inputFiles.lst
-    │
-    ├───surefire-reports
-    │       app.CsvEscapingTest.txt
-    │       app.CsvUtilTest.txt
-    │       app.FinanceServiceTest.txt
-    │       app.IntegrationFlowTest.txt
-    │       app.MoreCsvUtilTest.txt
-    │       app.MoreFinanceServiceTest.txt
-    │       app.MoreStorageServiceTest.txt
-    │       app.MoreUserServiceTest.txt
-    │       app.StorageServiceTest.txt
-    │       app.UserServiceTest.txt
-    │       TEST-app.CsvEscapingTest.xml
-    │       TEST-app.CsvUtilTest.xml
-    │       TEST-app.FinanceServiceTest.xml
-    │       TEST-app.IntegrationFlowTest.xml
-    │       TEST-app.MoreCsvUtilTest.xml
-    │       TEST-app.MoreFinanceServiceTest.xml
-    │       TEST-app.MoreStorageServiceTest.xml
-    │       TEST-app.MoreUserServiceTest.xml
-    │       TEST-app.StorageServiceTest.xml
-    │       TEST-app.UserServiceTest.xml
-    │
-    └───test-classes
-        └───app
-                CsvEscapingTest.class
-                CsvUtilTest.class
-                FinanceServiceTest.class
-                IntegrationFlowTest.class
-                MoreCsvUtilTest.class
-                MoreFinanceServiceTest.class
-                MoreStorageServiceTest.class
-                MoreUserServiceTest.class
-                StorageServiceTest.class
-                UserServiceTest.class
+C:.\
+│   .gitignore\
+│   hehe.csv\
+│   hehe.json\
+│   pom.xml\
+│\
+├───.github\
+│   └───workflows\
+│           ci.yml\
+│\
+├───.idea\
+│       .gitignore\
+│       compiler.xml\
+│       encodings.xml\
+│       jarRepositories.xml\
+│       misc.xml\
+│       workspace.xml\
+│\
+├───.mvn\
+├───config\
+│       checkstyle.xml\
+│\
+├───data\
+│       wallet_fred.json\
+│       wallet_FREDDY.json\
+│       wallet_frreddy.json\
+│\
+├───src\
+│   ├───main\
+│   │   ├───java\
+│   │   │   └───app\
+│   │   │           ConsoleApp.java\
+│   │   │           CsvUtil.java\
+│   │   │           FinanceService.java\
+│   │   │           Main.java\
+│   │   │           StorageService.java\
+│   │   │           Transaction.java\
+│   │   │           User.java\
+│   │   │           UserService.java\
+│   │   │           Wallet.java\
+│   │   │\
+│   │   └───resources\
+│   └───test\
+│       └───java\
+│           └───app\
+│                   CsvEscapingTest.java\
+│                   CsvUtilTest.java\
+│                   FinanceServiceTest.java\
+│                   IntegrationFlowTest.java\
+│                   MoreCsvUtilTest.java\
+│                   MoreFinanceServiceTest.java\
+│                   MoreStorageServiceTest.java\
+│                   MoreUserServiceTest.java\
+│                   StorageServiceTest.java\
+│                   UserServiceTest.java\
+│\
+└───target\
+    │   checkstyle-cachefile\
+    │   checkstyle-checker.xml\
+    │   checkstyle-result.xml\
+    │   finance-app-1.0.0.jar\
+    │   jacoco.exec\
+    │\
+    ├───classes\
+    │   └───app\
+    │           ConsoleApp.class\
+    │           CsvUtil.class\
+    │           FinanceService$FilterResult.class\
+    │           FinanceService.class\
+    │           Main.class\
+    │           StorageService$LocalDateAdapter.class\
+    │           StorageService.class\
+    │           Transaction.class\
+    │           User.class\
+    │           UserService.class\
+    │           Wallet.class\
+    │\
+    ├───generated-sources\
+    │   └───annotations\
+    ├───generated-test-sources\
+    │   └───test-annotations\
+    ├───maven-archiver\
+    │       pom.properties\
+    │\
+    ├───maven-status\
+    │   └───maven-compiler-plugin\
+    │       ├───compile\
+    │       │   └───default-compile\
+    │       │           createdFiles.lst\
+    │       │           inputFiles.lst\
+    │       │\
+    │       └───testCompile\
+    │           └───default-testCompile\
+    │                   createdFiles.lst\
+    │                   inputFiles.lst\
+    │\
+    ├───surefire-reports\
+    │       app.CsvEscapingTest.txt\
+    │       app.CsvUtilTest.txt\
+    │       app.FinanceServiceTest.txt\
+    │       app.IntegrationFlowTest.txt\
+    │       app.MoreCsvUtilTest.txt\
+    │       app.MoreFinanceServiceTest.txt\
+    │       app.MoreStorageServiceTest.txt\
+    │       app.MoreUserServiceTest.txt\
+    │       app.StorageServiceTest.txt\
+    │       app.UserServiceTest.txt\
+    │       TEST-app.CsvEscapingTest.xml\
+    │       TEST-app.CsvUtilTest.xml\
+    │       TEST-app.FinanceServiceTest.xml\
+    │       TEST-app.IntegrationFlowTest.xml\
+    │       TEST-app.MoreCsvUtilTest.xml\
+    │       TEST-app.MoreFinanceServiceTest.xml\
+    │       TEST-app.MoreStorageServiceTest.xml\
+    │       TEST-app.MoreUserServiceTest.xml\
+    │       TEST-app.StorageServiceTest.xml\
+    │       TEST-app.UserServiceTest.xml\
+    │\
+    └───test-classes\
+        └───app\
+                CsvEscapingTest.class\
+                CsvUtilTest.class\
+                FinanceServiceTest.class\
+                IntegrationFlowTest.class\
+                MoreCsvUtilTest.class\
+                MoreFinanceServiceTest.class\
+                MoreStorageServiceTest.class\
+                MoreUserServiceTest.class\
+                StorageServiceTest.class\
+                UserServiceTest.class\
 
 Структура проекта
 
