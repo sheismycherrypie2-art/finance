@@ -1,0 +1,63 @@
+{
+  "transactions": [
+    {
+      "category": "Еда",
+      "amount": 2000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Еда",
+      "amount": 7000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Перевод",
+      "amount": 8000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": "перевод пользователю freddy"
+    },
+    {
+      "category": "Еда",
+      "amount": 7000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Оплата учебы",
+      "amount": 6.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": "перевод пользователю freddy"
+    },
+    {
+      "category": "ЗП",
+      "amount": 10000.0,
+      "income": true,
+      "date": "2026-01-15",
+      "description": ""
+    },
+    {
+      "category": "Долг по учебе",
+      "amount": 3000.0,
+      "income": false,
+      "date": "2026-01-15",
+      "description": "перевод пользователю freddy"
+    }
+  ],
+  "categories": [
+    "Еда",
+    "Перевод",
+    "Оплата учебы",
+    "ЗП",
+    "Долг по учебе"
+  ],
+  "budgets": {
+    "Еда": 3000.0
+  }
+}
